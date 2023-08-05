@@ -21,3 +21,22 @@ FLAGS:
 ARGS:
     <frequency>    Frequency in Hz [default: 440]
 ```
+
+
+## Installation
+
+### Using Cargo
+
+`cargo install bzzz`
+
+
+### Using Nix flakes
+
+#### Running directly
+
+`nix run github:koenw/bzzz`
+
+
+#### Install to your profile
+
+`nix profile install github:koenw/bzzz`
