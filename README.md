@@ -25,11 +25,6 @@ ARGS:
 
 ## Installation
 
-### Using Cargo
-
-`cargo install bzzz`
-
-
 ### Using Nix flakes
 
 #### Running directly
