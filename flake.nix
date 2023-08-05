@@ -24,6 +24,12 @@
           name = "bzzz";
           src = ./.;
           cargoLock.lockFile = ./Cargo.lock;
+          nativeBuildInputs = with pkgs; [
+            gcc
+            pkg-config
+            alsa-lib
+          ];
+          PKG_CONFIG_PATH = "${pkgs.alsa-lib.dev}/lib/pkgconfig";
         };
 
         dockerImage = pkgs.dockerTools.buildImage {
