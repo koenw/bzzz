@@ -1,0 +1,11 @@
+[package]
+name = "bzzz"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+structopt = "0.3"
+cpal = "0.15"
+humantime = "2.1"
